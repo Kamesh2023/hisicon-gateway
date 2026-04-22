@@ -2,7 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Navbar } from "@/components/site/Navbar";
 import { Hero } from "@/components/site/Hero";
 import { RecognitionStrip } from "@/components/site/RecognitionStrip";
-import { AboutStrip } from "@/components/site/AboutStrip";
+
 import { News } from "@/components/site/News";
 import { Events } from "@/components/site/Events";
 import { Resources } from "@/components/site/Resources";
