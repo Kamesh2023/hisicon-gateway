@@ -45,19 +45,16 @@ export function Footer() {
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
                 <span>
                   HISI Secretariat,<br />
-                  Department of Microbiology,<br />
-                  New Delhi – 110029, India
+                  New Delhi, India
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-4 w-4 shrink-0 text-accent" />
-                <a href="mailto:secretariat@hisindia.org" className="hover:text-accent">
-                  secretariat@hisindia.org
-                </a>
+                <span>email@hisindia.org</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-4 w-4 shrink-0 text-accent" />
-                +91 11 2658 0000
+                <span>+91 — Phone TBA</span>
               </li>
             </ul>
           </div>
@@ -88,7 +85,7 @@ export function Footer() {
 
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-5 text-xs text-white/60 sm:flex-row lg:px-8">
-          <p>© 2025 Hospital Infection Society – India. All rights reserved.</p>
+          <p>© 2025 Hospital Infection Society – India. All Rights Reserved.</p>
           <div className="flex gap-5">
             <a href="#" className="hover:text-accent">Privacy Policy</a>
             <a href="#" className="hover:text-accent">Terms &amp; Conditions</a>

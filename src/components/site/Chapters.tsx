@@ -1,14 +1,14 @@
 import { MapPin } from "lucide-react";
 
 const chapters = [
-  { city: "Delhi NCR", members: "210+" },
-  { city: "Mumbai", members: "185+" },
-  { city: "Bangalore", members: "160+" },
-  { city: "Chennai", members: "140+" },
-  { city: "Pune", members: "120+" },
-  { city: "Hyderabad", members: "115+" },
-  { city: "Kolkata", members: "95+" },
-  { city: "Ahmedabad", members: "75+" },
+  "Delhi NCR",
+  "Mumbai",
+  "Bangalore",
+  "Chennai",
+  "Pune",
+  "Hyderabad",
+  "Kolkata",
+  "Ahmedabad",
 ];
 
 export function Chapters() {
@@ -34,17 +34,14 @@ export function Chapters() {
           </div>
 
           <div className="grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4">
-            {chapters.map((c) => (
+            {chapters.map((city) => (
               <div
-                key={c.city}
+                key={city}
                 className="group rounded-lg border border-border bg-card p-4 transition-all hover:border-accent/40 hover:shadow-[var(--shadow-card)]"
               >
                 <MapPin className="h-4 w-4 text-accent-dark" />
                 <div className="mt-3 text-sm font-semibold text-foreground">
-                  {c.city}
-                </div>
-                <div className="mt-0.5 text-xs text-muted-foreground">
-                  {c.members} members
+                  {city}
                 </div>
               </div>
             ))}
