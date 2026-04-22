@@ -8,30 +8,11 @@ const stats = [
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden bg-primary text-primary-foreground">
-      {/* subtle pattern */}
-      <div
-        aria-hidden
-        className="absolute inset-0 opacity-[0.07]"
-        style={{
-          backgroundImage:
-            "radial-gradient(circle at 1px 1px, white 1px, transparent 0)",
-          backgroundSize: "32px 32px",
-        }}
-      />
-      <div
-        aria-hidden
-        className="absolute -right-32 -top-32 h-96 w-96 rounded-full bg-accent/20 blur-3xl"
-      />
-      <div
-        aria-hidden
-        className="absolute -bottom-40 -left-20 h-96 w-96 rounded-full bg-white/5 blur-3xl"
-      />
-
+    <section className="relative overflow-hidden text-primary-foreground" style={{ backgroundColor: "#1B4F8A" }}>
       <div className="relative mx-auto max-w-7xl px-4 py-20 lg:px-8 lg:py-28">
         <div className="max-w-3xl">
-          <span className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-3 py-1 text-xs font-medium uppercase tracking-wider text-white/85">
-            <span className="h-1.5 w-1.5 rounded-full bg-accent" />
+          <span className="inline-flex items-center gap-3 rounded-full border border-white/20 bg-white/5 px-3 py-1 text-xs font-medium uppercase tracking-wider text-white/90">
+            <span className="h-px w-6 bg-white/60" />
             Established 1991
           </span>
           <h1 className="mt-6 text-4xl font-bold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl">
