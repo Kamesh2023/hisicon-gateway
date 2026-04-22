@@ -6,6 +6,7 @@ import { RecognitionStrip } from "@/components/site/RecognitionStrip";
 import { News } from "@/components/site/News";
 import { Events } from "@/components/site/Events";
 import { Resources } from "@/components/site/Resources";
+import { Membership } from "@/components/site/Membership";
 import { HisiconBanner } from "@/components/site/HisiconBanner";
 import { Chapters } from "@/components/site/Chapters";
 import { JournalSpotlight } from "@/components/site/JournalSpotlight";
@@ -44,6 +45,7 @@ function Index() {
         
         <News />
         <Events />
+        <Membership />
         <Resources />
         <HisiconBanner />
         <Chapters />
