@@ -23,7 +23,7 @@ export function HisiconBanner() {
             Annual Conference
           </span>
           <h2 className="mt-5 text-3xl font-bold tracking-tight sm:text-4xl lg:text-5xl">
-            HISICON 2025
+            HISICON 2026
           </h2>
           <p className="mt-3 max-w-2xl text-lg text-white/80">
             Annual National Conference on Infection Prevention &amp; Control —
@@ -33,17 +33,13 @@ export function HisiconBanner() {
           <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-white/85">
             <span className="inline-flex items-center gap-2">
               <CalendarDays className="h-4 w-4 text-accent" />
-              14 – 16 November 2025
-            </span>
-            <span className="inline-flex items-center gap-2">
-              <MapPin className="h-4 w-4 text-accent" />
-              Hyderabad International Convention Centre
+              Date &amp; Venue — To Be Announced
             </span>
           </div>
         </div>
 
         <button className="group inline-flex items-center justify-center gap-2 self-start rounded-md bg-accent px-7 py-3.5 text-sm font-semibold text-accent-foreground shadow-lg shadow-accent/25 transition-colors hover:bg-accent-dark lg:self-center">
-          Register for HISICON 2025
+          Register Interest
           <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
         </button>
       </div>
