@@ -40,6 +40,7 @@ function Index() {
       <Navbar />
       <main>
         <Hero />
+        <RecognitionStrip />
         <AboutStrip />
         <News />
         <Events />
