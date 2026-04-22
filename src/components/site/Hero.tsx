@@ -29,7 +29,7 @@ export function Hero() {
               Become a Member
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
             </button>
-            <button className="inline-flex items-center gap-2 rounded-md border border-white/25 bg-white/5 px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white/10">
+            <button className="inline-flex items-center gap-2 rounded-md border border-white bg-transparent px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-white/10">
               <BookOpen className="h-4 w-4" />
               Explore Resources
             </button>
@@ -42,7 +42,7 @@ export function Hero() {
               <div className="text-3xl font-bold text-white sm:text-4xl">
                 {s.value}
               </div>
-              <div className="mt-1 text-xs font-medium uppercase tracking-wider text-white/65 sm:text-sm">
+              <div className="mt-1 font-medium uppercase tracking-wider text-white" style={{ fontSize: "13px" }}>
                 {s.label}
               </div>
             </div>
