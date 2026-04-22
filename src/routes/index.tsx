@@ -41,7 +41,7 @@ function Index() {
       <main>
         <Hero />
         <RecognitionStrip />
-        <AboutStrip />
+        
         <News />
         <Events />
         <Resources />
