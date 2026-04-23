@@ -29,7 +29,7 @@ export function Hero() {
               Become a Member
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
             </button>
-            <button className="inline-flex items-center gap-2 rounded-md bg-white px-6 py-3 text-sm font-semibold transition-colors hover:bg-white/90" style={{ color: "#1B4F8A" }}>
+            <button className="inline-flex items-center gap-2 rounded-md border bg-white px-6 py-3 text-sm font-semibold transition-colors hover:bg-white/90" style={{ color: "#1B4F8A", borderColor: "#1B4F8A" }}>
               <BookOpen className="h-4 w-4" />
               Explore Resources
             </button>
