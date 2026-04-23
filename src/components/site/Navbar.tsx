@@ -3,14 +3,14 @@ import { Link } from "@tanstack/react-router";
 import { Menu, X, ShieldPlus } from "lucide-react";
 
 const navItems = [
-  { label: "Home", href: "/" },
-  { label: "About Us", href: "/" },
-  { label: "Membership", href: "/" },
-  { label: "Education", href: "/" },
-  { label: "Events", href: "/" },
-  { label: "Journal", href: "/" },
-  { label: "Chapters", href: "/" },
-  { label: "Contact Us", href: "/" },
+  { label: "Home", href: "/" as const },
+  { label: "About Us", href: "/about" as const },
+  { label: "Membership", href: "/membership" as const },
+  { label: "Education", href: "/education" as const },
+  { label: "Events", href: "/events" as const },
+  { label: "Journal", href: "/journal" as const },
+  { label: "Chapters", href: "/chapters" as const },
+  { label: "Contact Us", href: "/contact" as const },
 ];
 
 export function Navbar() {
