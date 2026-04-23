@@ -59,9 +59,9 @@ export function JournalSpotlight() {
             <ul className="mt-6 grid gap-2 sm:grid-cols-2">
               {[
                 "Indexed in Scopus, EMBASE & DOAJ",
+                "Free full-text access for HISI members",
                 "Open submissions year-round",
-                "Free access for HISI members",
-                "Quarterly publication",
+                "Quarterly publication — 4 issues per year",
               ].map((f) => (
                 <li
                   key={f}
