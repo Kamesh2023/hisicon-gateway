@@ -19,6 +19,9 @@ export function Footer() {
               academic society advancing infection prevention, control and
               antimicrobial stewardship since 1991.
             </p>
+            <p className="mt-3 text-xs leading-relaxed text-white/50">
+              Registered Society · Established 1991 · CIN: Pending verification
+            </p>
           </div>
 
           <div>
@@ -44,17 +47,17 @@ export function Footer() {
               <li className="flex gap-3">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
                 <span>
-                  HISI Secretariat,<br />
-                  New Delhi, India
+                  HISI National Secretariat,<br />
+                  New Delhi – 110 001, India
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-4 w-4 shrink-0 text-accent" />
-                <span>email@hisindia.org</span>
+                <span>secretary@hisindia.net</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-4 w-4 shrink-0 text-accent" />
-                <span>+91 — Phone TBA</span>
+                <span>+91 98XXX XXXXX (Secretariat)</span>
               </li>
             </ul>
           </div>
@@ -85,11 +88,13 @@ export function Footer() {
 
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-5 text-xs text-white/60 sm:flex-row lg:px-8">
-          <p>© 2025 Hospital Infection Society – India. All Rights Reserved.</p>
-          <div className="flex gap-5">
+          <p className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-center sm:justify-start sm:text-left">
+            <span>© 2026 Hospital Infection Society – India. All Rights Reserved.</span>
+            <span aria-hidden>·</span>
             <a href="#" className="hover:text-accent">Privacy Policy</a>
-            <a href="#" className="hover:text-accent">Terms &amp; Conditions</a>
-          </div>
+            <span aria-hidden>·</span>
+            <a href="#" className="hover:text-accent">Terms of Use</a>
+          </p>
         </div>
       </div>
     </footer>
