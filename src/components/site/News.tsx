@@ -2,25 +2,27 @@ import { ArrowUpRight } from "lucide-react";
 
 const news = [
   {
-    date: "18 Apr 2026",
+    date: "15 Apr 2026",
     tag: "AMR Update",
-    title: "National AMR surveillance report 2025 released by ICMR-AMRSN",
+    title: "ICMR-AMRSN releases updated national antibiogram for 2025–26",
     excerpt:
-      "Latest data on resistance trends across tertiary care hospitals highlights rising carbapenem resistance in Gram-negative pathogens.",
-  },
-  {
-    date: "10 Apr 2026",
-    tag: "Guideline",
-    title: "HISI position statement on hand hygiene compliance auditing",
-    excerpt:
-      "Updated framework for direct observation methodology in Indian healthcare settings, aligned with WHO's multimodal strategy.",
+      "New surveillance data highlights rising carbapenem resistance in Gram-negative organisms across tertiary care centres in India.",
   },
   {
     date: "02 Apr 2026",
-    tag: "Event",
-    title: "Registrations open for HISICON 2026 — early-bird until 30 June",
+    tag: "Guideline",
+    title:
+      "HISI updates position statement on central line-associated bloodstream infection (CLABSI) prevention",
     excerpt:
-      "Three-day scientific programme featuring international faculty, workshops on outbreak investigation and stewardship rounds.",
+      "Revised evidence-based recommendations aligned with WHO and CDC guidance for Indian healthcare settings.",
+  },
+  {
+    date: "20 Mar 2026",
+    tag: "Event",
+    title:
+      "HISICON 2026 call for abstracts now open — submission deadline 31 July 2026",
+    excerpt:
+      "Submit original research, case studies and audits for oral and poster presentation at India's premier IPC conference.",
   },
 ];
 
