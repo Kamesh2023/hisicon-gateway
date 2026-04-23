@@ -17,6 +17,14 @@ const tiers = [
     name: "Institutional Member",
     desc: "For hospitals, academic institutions and laboratories supporting IPC.",
   },
+  {
+    name: "Fellow Member",
+    desc: "Awarded to senior IPC professionals with significant contributions to research, publications and leadership in infection prevention.",
+  },
+  {
+    name: "Student Member",
+    desc: "For postgraduate students pursuing MD, MSc or fellowship programmes in microbiology, infectious disease or related specialties.",
+  },
 ];
 
 export function Membership() {
@@ -31,11 +39,11 @@ export function Membership() {
             Become a Member
           </h2>
           <p className="mt-3 text-lg text-white/80">
-            Join 1,500+ infection control professionals across India.
+            Join 1,500+ infection control professionals across India — clinicians, microbiologists, nurses, administrators and researchers.
           </p>
         </div>
 
-        <div className="mt-12 grid gap-5 sm:grid-cols-2">
+        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {tiers.map((t) => (
             <div
               key={t.name}
