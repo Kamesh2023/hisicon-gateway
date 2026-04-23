@@ -1,4 +1,4 @@
-import { CalendarDays, MapPin, ArrowRight } from "lucide-react";
+import { CalendarDays, FilePen, ArrowRight } from "lucide-react";
 
 export function HisiconBanner() {
   return (
@@ -30,18 +30,27 @@ export function HisiconBanner() {
             three days of scientific sessions, workshops and networking with
             India's leading IPC experts.
           </p>
-          <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm text-white/85">
+          <div className="mt-6 flex flex-col gap-y-3 text-sm text-white/85 sm:flex-row sm:flex-wrap sm:items-center sm:gap-x-6">
             <span className="inline-flex items-center gap-2">
               <CalendarDays className="h-4 w-4 text-accent" />
               Date &amp; Venue — To Be Announced
             </span>
+            <span className="inline-flex items-center gap-2">
+              <FilePen className="h-4 w-4 text-accent" />
+              Abstract submissions open — deadline 31 July 2026
+            </span>
           </div>
         </div>
 
-        <button className="group inline-flex items-center justify-center gap-2 self-start rounded-md bg-accent px-7 py-3.5 text-sm font-semibold text-accent-foreground shadow-lg shadow-accent/25 transition-colors hover:bg-accent-dark lg:self-center">
-          Register Interest
-          <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
-        </button>
+        <div className="flex flex-col gap-3 self-start sm:flex-row lg:self-center">
+          <button className="group inline-flex items-center justify-center gap-2 rounded-md bg-accent px-7 py-3.5 text-sm font-semibold text-accent-foreground shadow-lg shadow-accent/25 transition-colors hover:bg-accent-dark">
+            Register Interest
+            <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
+          </button>
+          <button className="inline-flex items-center justify-center gap-2 rounded-md border border-white bg-transparent px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-white/10">
+            Submit an Abstract
+          </button>
+        </div>
       </div>
     </section>
   );
