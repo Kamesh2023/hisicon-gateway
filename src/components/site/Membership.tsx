@@ -39,7 +39,7 @@ export function Membership() {
             Become a Member
           </h2>
           <p className="mt-3 text-lg text-white/80">
-            Join 1,500+ infection control professionals across India.
+            Join 1,500+ infection control professionals across India — clinicians, microbiologists, nurses, administrators and researchers.
           </p>
         </div>
 
