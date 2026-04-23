@@ -88,11 +88,13 @@ export function Footer() {
 
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-5 text-xs text-white/60 sm:flex-row lg:px-8">
-          <p>© 2025 Hospital Infection Society – India. All Rights Reserved.</p>
-          <div className="flex gap-5">
+          <p className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-center sm:justify-start sm:text-left">
+            <span>© 2026 Hospital Infection Society – India. All Rights Reserved.</span>
+            <span aria-hidden>·</span>
             <a href="#" className="hover:text-accent">Privacy Policy</a>
-            <a href="#" className="hover:text-accent">Terms &amp; Conditions</a>
-          </div>
+            <span aria-hidden>·</span>
+            <a href="#" className="hover:text-accent">Terms of Use</a>
+          </p>
         </div>
       </div>
     </footer>
