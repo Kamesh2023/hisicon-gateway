@@ -20,7 +20,7 @@ export function JournalSpotlight() {
               <div className="absolute inset-0 flex flex-col justify-between p-6 text-primary-foreground">
                 <div>
                   <div className="text-[10px] font-semibold uppercase tracking-wider text-accent">
-                    Volume 12 · Issue 1
+                    Volume 13 · Issue 1
                   </div>
                   <div className="mt-1 text-[10px] uppercase tracking-wider text-white/70">
                     Jan – Mar 2026
