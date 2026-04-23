@@ -47,17 +47,17 @@ export function Footer() {
               <li className="flex gap-3">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
                 <span>
-                  HISI Secretariat,<br />
-                  New Delhi, India
+                  HISI National Secretariat,<br />
+                  New Delhi – 110 001, India
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="h-4 w-4 shrink-0 text-accent" />
-                <span>email@hisindia.org</span>
+                <span>secretary@hisindia.net</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-4 w-4 shrink-0 text-accent" />
-                <span>+91 — Phone TBA</span>
+                <span>+91 98XXX XXXXX (Secretariat)</span>
               </li>
             </ul>
           </div>
