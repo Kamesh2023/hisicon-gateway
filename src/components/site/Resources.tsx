@@ -1,4 +1,4 @@
-import { BookOpen, FileText, Presentation, Video, ArrowRight } from "lucide-react";
+import { BookOpen, FileText, Presentation, Video, Shield, ArrowRight } from "lucide-react";
 
 const items = [
   {
@@ -25,6 +25,12 @@ const items = [
     desc: "On-demand recordings on stewardship, outbreak control and IPC.",
     cta: "Watch now",
   },
+  {
+    icon: Shield,
+    title: "AMR Resources",
+    desc: "India-specific antimicrobial resistance guidelines, stewardship toolkits and surveillance reports aligned with the National Action Plan.",
+    cta: "Access resources",
+  },
 ];
 
 export function Resources() {
@@ -44,7 +50,7 @@ export function Resources() {
           </p>
         </div>
 
-        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
           {items.map(({ icon: Icon, title, desc, cta }) => (
             <div
               key={title}
