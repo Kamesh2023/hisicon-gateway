@@ -6,18 +6,21 @@ const events = [
     month: "Jun",
     name: "Workshop on Outbreak Investigation in Critical Care Units",
     location: "AIIMS, New Delhi",
+    dateLabel: "12 Jun 2026",
   },
   {
     day: "24",
     month: "Jul",
-    name: "HISI Mumbai Chapter — CME on Antimicrobial Stewardship",
+    name: "HISI Mumbai Chapter — CME on Antimicrobial Stewardship in Community Settings",
     location: "Tata Memorial Centre, Mumbai",
+    dateLabel: "24 Jul 2026",
   },
   {
-    day: "08",
-    month: "Sep",
-    name: "Regional Symposium on Surgical Site Infection Prevention",
-    location: "Christian Medical College, Vellore",
+    day: "22",
+    month: "Nov",
+    name: "HISICON 2026 — Annual National Conference on Infection Prevention & Control",
+    location: "Hyderabad International Convention Centre",
+    dateLabel: "22–24 Nov 2026",
   },
 ];
 
