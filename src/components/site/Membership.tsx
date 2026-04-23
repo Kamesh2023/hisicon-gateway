@@ -17,6 +17,14 @@ const tiers = [
     name: "Institutional Member",
     desc: "For hospitals, academic institutions and laboratories supporting IPC.",
   },
+  {
+    name: "Fellow Member",
+    desc: "Awarded to senior IPC professionals with significant contributions to research, publications and leadership in infection prevention.",
+  },
+  {
+    name: "Student Member",
+    desc: "For postgraduate students pursuing MD, MSc or fellowship programmes in microbiology, infectious disease or related specialties.",
+  },
 ];
 
 export function Membership() {
