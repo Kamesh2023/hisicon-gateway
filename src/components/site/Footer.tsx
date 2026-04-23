@@ -19,6 +19,9 @@ export function Footer() {
               academic society advancing infection prevention, control and
               antimicrobial stewardship since 1991.
             </p>
+            <p className="mt-3 text-xs leading-relaxed text-white/50">
+              Registered Society · Established 1991 · CIN: Pending verification
+            </p>
           </div>
 
           <div>
