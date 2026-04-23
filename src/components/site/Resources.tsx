@@ -25,6 +25,12 @@ const items = [
     desc: "On-demand recordings on stewardship, outbreak control and IPC.",
     cta: "Watch now",
   },
+  {
+    icon: Shield,
+    title: "AMR Resources",
+    desc: "India-specific antimicrobial resistance guidelines, stewardship toolkits and surveillance reports aligned with the National Action Plan.",
+    cta: "Access resources",
+  },
 ];
 
 export function Resources() {
