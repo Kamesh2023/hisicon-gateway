@@ -24,12 +24,13 @@ export function Chapters() {
               City Chapters across India
             </h2>
             <p className="mt-4 text-base leading-relaxed text-muted-foreground">
-              HISI's regional chapters bring together infection control
-              practitioners, microbiologists and clinicians for local CMEs,
-              workshops and surveillance initiatives. Twenty cities and counting.
+              HISI's regional chapters bring infection control practitioners,
+              microbiologists and clinicians together for local CMEs, workshops,
+              surveillance initiatives and peer support. Twenty cities and
+              counting.
             </p>
             <button className="mt-6 inline-flex items-center gap-2 rounded-md border border-primary/25 px-5 py-2.5 text-sm font-semibold text-primary transition-colors hover:bg-primary/5">
-              Find your chapter
+              View all chapters &amp; contacts
             </button>
           </div>
 
