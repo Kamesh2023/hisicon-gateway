@@ -1,4 +1,4 @@
-import { BookOpen, FileText, Presentation, Video, ArrowRight } from "lucide-react";
+import { BookOpen, FileText, Presentation, Video, Shield, ArrowRight } from "lucide-react";
 
 const items = [
   {
