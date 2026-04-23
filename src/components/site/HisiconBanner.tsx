@@ -1,4 +1,4 @@
-import { CalendarDays, MapPin, ArrowRight } from "lucide-react";
+import { CalendarDays, FilePen, ArrowRight } from "lucide-react";
 
 export function HisiconBanner() {
   return (
