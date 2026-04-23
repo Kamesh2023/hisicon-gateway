@@ -6,18 +6,21 @@ const events = [
     month: "Jun",
     name: "Workshop on Outbreak Investigation in Critical Care Units",
     location: "AIIMS, New Delhi",
+    dateLabel: "12 Jun 2026",
   },
   {
     day: "24",
     month: "Jul",
-    name: "HISI Mumbai Chapter — CME on Antimicrobial Stewardship",
+    name: "HISI Mumbai Chapter — CME on Antimicrobial Stewardship in Community Settings",
     location: "Tata Memorial Centre, Mumbai",
+    dateLabel: "24 Jul 2026",
   },
   {
-    day: "08",
-    month: "Sep",
-    name: "Regional Symposium on Surgical Site Infection Prevention",
-    location: "Christian Medical College, Vellore",
+    day: "22",
+    month: "Nov",
+    name: "HISICON 2026 — Annual National Conference on Infection Prevention & Control",
+    location: "Hyderabad International Convention Centre",
+    dateLabel: "22–24 Nov 2026",
   },
 ];
 
@@ -61,7 +64,7 @@ export function Events() {
                 <div className="mt-1.5 flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-muted-foreground">
                   <span className="inline-flex items-center gap-1.5">
                     <Calendar className="h-3.5 w-3.5" />
-                    {e.day} {e.month} 2026
+                    {e.dateLabel}
                   </span>
                   <span className="inline-flex items-center gap-1.5">
                     <MapPin className="h-3.5 w-3.5" />
