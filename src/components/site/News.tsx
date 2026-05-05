@@ -38,7 +38,7 @@ export function News() {
       <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8 lg:py-20">
         <div className="flex items-end justify-between gap-4">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-wider text-accent-dark">
+            <p className="text-xs font-semibold uppercase tracking-wider" style={{ color: "#0052cc" }}>
               Newsroom
             </p>
             <h2 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
@@ -57,7 +57,11 @@ export function News() {
           {news.map((n) => (
             <article
               key={n.title}
-              className="group flex flex-col rounded-lg border border-border bg-card p-6 transition-all hover:border-primary/30 hover:shadow-[var(--shadow-card)]"
+              className="group flex flex-col bg-card p-6 transition-all hover:shadow-[var(--shadow-card)]"
+              style={{
+                borderLeft: "3px solid #2b83ff",
+                borderRadius: "0 8px 8px 0",
+              }}
             >
               <div className="flex items-center gap-3 text-xs">
                 <span
@@ -75,7 +79,8 @@ export function News() {
               </p>
               <a
                 href="#"
-                className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent-dark"
+                className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold"
+                style={{ color: "#0052cc" }}
               >
                 Read more <ArrowUpRight className="h-4 w-4" />
               </a>

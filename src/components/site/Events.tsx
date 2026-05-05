@@ -30,7 +30,7 @@ export function Events() {
       <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8 lg:py-20">
         <div className="flex items-end justify-between gap-4">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-wider text-accent-dark">
+            <p className="text-xs font-semibold uppercase tracking-wider" style={{ color: "#0052cc" }}>
               Calendar
             </p>
             <h2 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
