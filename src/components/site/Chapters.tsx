@@ -17,7 +17,7 @@ export function Chapters() {
       <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8 lg:py-20">
         <div className="grid gap-12 lg:grid-cols-[1fr_1.2fr] lg:items-center">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-wider text-accent-dark">
+            <p className="text-xs font-semibold uppercase tracking-wider" style={{ color: "#0052cc" }}>
               Nationwide Network
             </p>
             <h2 className="mt-2 text-3xl font-bold tracking-tight text-foreground sm:text-4xl">
