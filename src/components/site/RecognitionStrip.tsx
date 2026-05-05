@@ -19,7 +19,7 @@ export function RecognitionStrip() {
   return (
     <section
       className="border-b border-border"
-      style={{ backgroundColor: "#F5F5F5", paddingTop: "60px", paddingBottom: "60px" }}
+      style={{ backgroundColor: "var(--surface-soft)", paddingTop: "60px", paddingBottom: "60px" }}
     >
       <div className="mx-auto max-w-7xl px-4 lg:px-8">
         <div className="grid gap-6 md:grid-cols-3 md:gap-8">
