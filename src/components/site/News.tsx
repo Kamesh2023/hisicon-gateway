@@ -57,7 +57,11 @@ export function News() {
           {news.map((n) => (
             <article
               key={n.title}
-              className="group flex flex-col rounded-lg border border-border bg-card p-6 transition-all hover:border-primary/30 hover:shadow-[var(--shadow-card)]"
+              className="group flex flex-col bg-card p-6 transition-all hover:shadow-[var(--shadow-card)]"
+              style={{
+                borderLeft: "3px solid #2b83ff",
+                borderRadius: "0 8px 8px 0",
+              }}
             >
               <div className="flex items-center gap-3 text-xs">
                 <span
