@@ -12,8 +12,7 @@ export function PageShell({ title, subtitle }: PageShellProps) {
       <Navbar />
       <main>
         <section
-          className="text-primary-foreground"
-          style={{ backgroundColor: "#1B4F8A" }}
+          className="bg-primary text-primary-foreground"
         >
           <div className="mx-auto max-w-7xl px-4 py-20 lg:px-8 lg:py-24">
             <h1
