@@ -47,6 +47,9 @@ export function Navbar() {
           <button className="rounded-md border border-primary/25 px-4 py-2 text-sm font-semibold text-primary transition-colors hover:bg-primary/5">
             Login
           </button>
+          <button className="rounded-md border border-primary/50 px-4 py-2 text-sm font-semibold text-primary transition-colors hover:bg-primary/5">
+            Renew
+          </button>
           <button className="rounded-md bg-accent px-4 py-2 text-sm font-semibold text-accent-foreground shadow-sm transition-colors hover:bg-accent-dark">
             Become a Member
           </button>
@@ -77,6 +80,9 @@ export function Navbar() {
             <div className="mt-3 flex flex-col gap-2 border-t border-border pt-3">
               <button className="rounded-md border border-primary/25 px-4 py-2 text-sm font-semibold text-primary">
                 Login
+              </button>
+              <button className="rounded-md border border-primary/50 px-4 py-2 text-sm font-semibold text-primary">
+                Renew
               </button>
               <button className="rounded-md bg-accent px-4 py-2 text-sm font-semibold text-accent-foreground">
                 Become a Member
