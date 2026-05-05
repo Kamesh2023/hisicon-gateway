@@ -41,7 +41,7 @@ export function JournalSpotlight() {
           </div>
 
           <div>
-            <div className="inline-flex items-center gap-2 rounded-full bg-accent/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-accent-dark">
+            <div className="inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-wider" style={{ backgroundColor: "#e8f0fe", color: "#0052cc" }}>
               <BookMarked className="h-3.5 w-3.5" />
               Latest Issue
             </div>
