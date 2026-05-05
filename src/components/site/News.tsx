@@ -79,7 +79,8 @@ export function News() {
               </p>
               <a
                 href="#"
-                className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent-dark"
+                className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold"
+                style={{ color: "#0052cc" }}
               >
                 Read more <ArrowUpRight className="h-4 w-4" />
               </a>
