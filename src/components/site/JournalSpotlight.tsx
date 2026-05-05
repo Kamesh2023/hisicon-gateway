@@ -4,7 +4,7 @@ export function JournalSpotlight() {
   return (
     <section className="bg-background">
       <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8 lg:py-20">
-        <div className="grid gap-12 rounded-2xl border border-border bg-card p-6 sm:p-10 lg:grid-cols-[auto_1fr] lg:items-center lg:gap-16 lg:p-14">
+        <div className="grid gap-12 bg-card p-6 sm:p-10 lg:grid-cols-[auto_1fr] lg:items-center lg:gap-16 lg:p-14" style={{ borderLeft: "3px solid #2b83ff", borderRadius: "0 8px 8px 0" }}>
           {/* Journal cover */}
           <div className="mx-auto w-56 sm:w-64">
             <div className="relative aspect-[3/4] overflow-hidden rounded-md bg-primary shadow-xl shadow-primary/20">
