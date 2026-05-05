@@ -70,11 +70,11 @@
 :root {
   --radius: 0.5rem;
   --background: oklch(1 0 0);
-  --foreground: oklch(0.22 0.04 250);
+  --foreground: #1a2b4a;
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.22 0.04 250);
+  --card-foreground: #1a2b4a;
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.22 0.04 250);
+  --popover-foreground: #1a2b4a;
   /* HISI navy #003087 */
   --primary: #003087;
   --primary-foreground: #ffffff;
