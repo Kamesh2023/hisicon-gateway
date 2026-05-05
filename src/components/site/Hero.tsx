@@ -8,7 +8,7 @@ const stats = [
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden text-primary-foreground" style={{ backgroundColor: "#1B4F8A" }}>
+    <section className="relative overflow-hidden bg-primary text-primary-foreground">
       <div className="relative mx-auto max-w-7xl px-4 py-20 lg:px-8 lg:py-28">
         <div className="max-w-3xl">
           <span className="inline-flex items-center gap-3 rounded-full border border-white/20 bg-white/5 px-3 py-1 text-xs font-medium uppercase tracking-wider text-white/90">
@@ -29,7 +29,7 @@ export function Hero() {
               Become a Member
               <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
             </button>
-            <button className="inline-flex items-center gap-2 rounded-md border bg-white px-6 py-3 text-sm font-semibold transition-colors hover:bg-white/90" style={{ color: "#1B4F8A", borderColor: "#1B4F8A" }}>
+            <button className="inline-flex items-center gap-2 rounded-md border border-primary bg-white px-6 py-3 text-sm font-semibold text-primary transition-colors hover:bg-white/90">
               <BookOpen className="h-4 w-4" />
               Explore Resources
             </button>

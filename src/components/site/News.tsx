@@ -27,9 +27,9 @@ const news = [
 ];
 
 const tagStyles: Record<string, string> = {
-  "AMR Update": "bg-accent/10 text-accent-dark",
-  Guideline: "bg-primary/10 text-primary",
-  Event: "bg-amber-500/10 text-amber-700",
+  "AMR Update": "bg-[#e8f0fe] text-[#0052cc]",
+  Guideline: "bg-[#e8f0fe] text-[#003087]",
+  Event: "bg-[#FEF3C7] text-[#B45309]",
 };
 
 export function News() {

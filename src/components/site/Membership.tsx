@@ -29,7 +29,7 @@ const tiers = [
 
 export function Membership() {
   return (
-    <section className="text-primary-foreground" style={{ backgroundColor: "#1B4F8A" }}>
+    <section className="bg-primary text-primary-foreground">
       <div className="mx-auto max-w-7xl px-4 py-20 lg:px-8 lg:py-24">
         <div className="max-w-2xl">
           <span className="inline-block rounded-full border border-accent/40 bg-accent/10 px-3 py-1 text-xs font-semibold uppercase tracking-wider text-accent">
