@@ -10,7 +10,7 @@ export function PageShell({ title, subtitle }: PageShellProps) {
   return (
     <div className="min-h-screen bg-background">
       <Navbar />
-      <main>
+      <main className="pt-16">
         <section
           className="bg-primary text-primary-foreground"
         >
