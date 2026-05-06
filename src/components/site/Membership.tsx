@@ -88,7 +88,7 @@ export function Membership() {
               <p className="mt-2 text-sm leading-relaxed text-white/75">
                 {t.desc}
               </p>
-              <button className="group mt-6 inline-flex w-fit items-center gap-2 rounded-md bg-accent px-5 py-2.5 text-sm font-semibold text-accent-foreground transition-colors hover:bg-accent-dark">
+              <button className="group mt-6 inline-flex w-fit items-center gap-2 rounded-md bg-accent px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-accent-dark">
                 Join Now
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
               </button>
