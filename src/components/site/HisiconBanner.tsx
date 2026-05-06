@@ -2,7 +2,7 @@ import { CalendarDays, FilePen, ArrowRight } from "lucide-react";
 
 export function HisiconBanner() {
   return (
-    <section className="relative overflow-hidden bg-primary-darker text-primary-foreground">
+    <section className="relative overflow-hidden bg-primary-dark text-primary-foreground">
       <div
         aria-hidden
         className="absolute inset-0 opacity-[0.06]"
@@ -43,8 +43,8 @@ export function HisiconBanner() {
         </div>
 
         <div className="flex flex-col gap-3 self-start sm:flex-row lg:self-center">
-          <button className="group inline-flex items-center justify-center gap-2 rounded-md bg-accent px-7 py-3.5 text-sm font-semibold text-accent-foreground shadow-lg shadow-accent/25 transition-colors hover:bg-accent-dark">
-            Register Interest
+          <button className="group inline-flex items-center justify-center gap-2 rounded-md bg-accent px-7 py-3.5 text-sm font-semibold text-white shadow-lg shadow-accent/25 transition-colors hover:bg-accent-dark">
+            Register Now
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
           </button>
           <button className="inline-flex items-center justify-center gap-2 rounded-md border border-white bg-transparent px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-white/10">

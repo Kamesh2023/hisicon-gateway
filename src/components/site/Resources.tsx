@@ -56,7 +56,7 @@ export function Resources() {
               key={title}
               className="group flex flex-col rounded-lg border border-border bg-card p-6 transition-all hover:-translate-y-0.5 hover:border-primary/30 hover:shadow-[var(--shadow-card)]"
             >
-              <div className="flex h-11 w-11 items-center justify-center rounded-md bg-accent/10 text-accent-dark">
+              <div className="flex h-11 w-11 items-center justify-center rounded-md bg-accent/10 text-accent">
                 <Icon className="h-5 w-5" strokeWidth={2} />
               </div>
               <h3 className="mt-5 text-base font-semibold text-foreground">
@@ -67,7 +67,7 @@ export function Resources() {
               </p>
               <a
                 href="#"
-                className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-primary"
+                className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent"
               >
                 {cta}
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
