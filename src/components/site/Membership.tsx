@@ -1,4 +1,27 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, BookOpen, GraduationCap, Calendar, Users } from "lucide-react";
+
+const benefits = [
+  {
+    icon: BookOpen,
+    title: "Free JPSIC access",
+    desc: "Full digital access to all journal issues",
+  },
+  {
+    icon: GraduationCap,
+    title: "CPD & CME credits",
+    desc: "Accredited learning modules and certificates",
+  },
+  {
+    icon: Calendar,
+    title: "HISICON discounts",
+    desc: "Reduced registration rates for annual conference",
+  },
+  {
+    icon: Users,
+    title: "Professional network",
+    desc: "Connect with 1,500+ IPC professionals across India",
+  },
+];
 
 const tiers = [
   {
@@ -43,7 +66,19 @@ export function Membership() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {benefits.map(({ icon: Icon, title, desc }) => (
+            <div key={title} className="flex flex-col gap-2">
+              <Icon size={20} style={{ color: "#2b83ff" }} />
+              <div className="text-[14px] font-semibold text-white">{title}</div>
+              <div className="text-[13px] leading-snug text-white/65">{desc}</div>
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-10 h-px w-full bg-white/15" />
+
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {tiers.map((t) => (
             <div
               key={t.name}
