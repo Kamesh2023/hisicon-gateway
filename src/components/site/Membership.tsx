@@ -1,4 +1,4 @@
-import { ArrowRight, BookOpen, GraduationCap, Calendar, Users } from "lucide-react";
+import { ArrowRight, BookOpen, GraduationCap, Calendar, Users, MapPin } from "lucide-react";
 
 const benefits = [
   {
@@ -20,6 +20,11 @@ const benefits = [
     icon: Users,
     title: "Professional network",
     desc: "Connect with 1,500+ IPC professionals across India",
+  },
+  {
+    icon: MapPin,
+    title: "Chapter events",
+    desc: "Access to local CMEs, workshops and peer networks across 20+ cities",
   },
 ];
 
@@ -66,7 +71,7 @@ export function Membership() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
           {benefits.map(({ icon: Icon, title, desc }) => (
             <div key={title} className="flex flex-col gap-2">
               <Icon size={20} style={{ color: "#2b83ff" }} />
