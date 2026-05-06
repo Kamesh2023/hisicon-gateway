@@ -51,7 +51,7 @@ export function Events() {
               key={e.name}
               className="flex flex-col gap-4 rounded-lg border border-border bg-card p-5 transition-shadow hover:shadow-[var(--shadow-card)] sm:flex-row sm:items-center"
             >
-              <div className="flex h-16 w-16 shrink-0 flex-col items-center justify-center rounded-md bg-primary text-primary-foreground">
+              <div className="flex h-16 w-16 shrink-0 flex-col items-center justify-center rounded-md text-white" style={{ backgroundColor: "#003087" }}>
                 <span className="text-xl font-bold leading-none">{e.day}</span>
                 <span className="mt-1 text-[10px] font-semibold uppercase tracking-wider">
                   {e.month}
@@ -72,7 +72,10 @@ export function Events() {
                   </span>
                 </div>
               </div>
-              <button className="shrink-0 rounded-md bg-accent px-5 py-2.5 text-sm font-semibold text-accent-foreground transition-colors hover:bg-accent-dark">
+              <button
+                className="shrink-0 rounded-md border bg-transparent px-5 py-2.5 text-sm font-semibold transition-colors hover:bg-[#003087]/5"
+                style={{ borderColor: "#003087", color: "#003087" }}
+              >
                 Register
               </button>
             </div>

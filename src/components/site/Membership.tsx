@@ -1,4 +1,4 @@
-import { ArrowRight, BookOpen, GraduationCap, Calendar, Users } from "lucide-react";
+import { ArrowRight, BookOpen, GraduationCap, Calendar, Users, MapPin } from "lucide-react";
 
 const benefits = [
   {
@@ -20,6 +20,11 @@ const benefits = [
     icon: Users,
     title: "Professional network",
     desc: "Connect with 1,500+ IPC professionals across India",
+  },
+  {
+    icon: MapPin,
+    title: "Chapter events",
+    desc: "Access to local CMEs, workshops and peer networks across 20+ cities",
   },
 ];
 
@@ -66,7 +71,7 @@ export function Membership() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-5">
           {benefits.map(({ icon: Icon, title, desc }) => (
             <div key={title} className="flex flex-col gap-2">
               <Icon size={20} style={{ color: "#2b83ff" }} />
@@ -88,7 +93,10 @@ export function Membership() {
               <p className="mt-2 text-sm leading-relaxed text-white/75">
                 {t.desc}
               </p>
-              <button className="group mt-6 inline-flex w-fit items-center gap-2 rounded-md bg-accent px-5 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-accent-dark">
+              <button
+                className="group mt-6 inline-flex w-fit items-center gap-2 rounded-md px-5 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+                style={{ backgroundColor: "#003087" }}
+              >
                 Join Now
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
               </button>

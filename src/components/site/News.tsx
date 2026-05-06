@@ -63,15 +63,13 @@ export function News() {
                 borderRadius: "0 8px 8px 0",
               }}
             >
-              <div className="flex items-center gap-3 text-xs">
-                <span
-                  className={`rounded-full px-2.5 py-1 font-semibold ${tagStyles[n.tag] ?? "bg-muted text-muted-foreground"}`}
-                >
-                  {n.tag}
-                </span>
-                <time className="font-medium text-muted-foreground">{n.date}</time>
-              </div>
-              <h3 className="mt-4 text-lg font-semibold leading-snug text-foreground group-hover:text-primary">
+              <span
+                className={`inline-flex w-fit rounded-full px-2.5 py-1 text-xs font-semibold ${tagStyles[n.tag] ?? "bg-muted text-muted-foreground"}`}
+              >
+                {n.tag}
+              </span>
+              <time className="mt-3 text-xs font-medium text-muted-foreground">{n.date}</time>
+              <h3 className="mt-2 text-lg font-semibold leading-snug text-foreground group-hover:text-primary">
                 {n.title}
               </h3>
               <p className="mt-3 flex-1 text-sm leading-relaxed text-muted-foreground">
@@ -80,7 +78,7 @@ export function News() {
               <a
                 href="#"
                 className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold"
-                style={{ color: "#0052cc" }}
+                style={{ color: "#003087" }}
               >
                 Read more <ArrowUpRight className="h-4 w-4" />
               </a>
