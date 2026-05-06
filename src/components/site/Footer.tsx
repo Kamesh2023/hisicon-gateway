@@ -14,7 +14,7 @@ export function Footer() {
               </div>
               <span className="text-base font-bold">HISI</span>
             </div>
-            <p className="mt-4 text-sm leading-relaxed text-white/70">
+            <p className="mt-4 text-sm leading-relaxed text-white/50">
               Hospital Infection Society – India is the country's premier
               academic society advancing infection prevention, control and
               antimicrobial stewardship since 1991.
@@ -25,13 +25,13 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wider text-white">
+            <h4 className="text-sm font-semibold uppercase tracking-wider text-white/85">
               Quick Links
             </h4>
             <ul className="mt-5 space-y-2.5 text-sm">
               {quickLinks.map((l) => (
                 <li key={l}>
-                  <a href="#" className="text-white/70 transition-colors hover:text-accent">
+                  <a href="#" className="text-white/50 transition-colors hover:text-accent">
                     {l}
                   </a>
                 </li>
@@ -40,10 +40,10 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wider text-white">
+            <h4 className="text-sm font-semibold uppercase tracking-wider text-white/85">
               Contact
             </h4>
-            <ul className="mt-5 space-y-3 text-sm text-white/70">
+            <ul className="mt-5 space-y-3 text-sm text-white/50">
               <li className="flex gap-3">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-accent" />
                 <span>
@@ -63,7 +63,7 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="text-sm font-semibold uppercase tracking-wider text-white">
+            <h4 className="text-sm font-semibold uppercase tracking-wider text-white/85">
               Follow Us
             </h4>
             <div className="mt-5 flex gap-2">
@@ -71,14 +71,14 @@ export function Footer() {
                 <a
                   key={i}
                   href="#"
-                  className="flex h-9 w-9 items-center justify-center rounded-md border border-white/15 text-white/80 transition-colors hover:border-accent hover:bg-accent hover:text-accent-foreground"
+                  className="flex h-9 w-9 items-center justify-center rounded-md border border-white/15 text-white/50 transition-colors hover:border-accent hover:bg-accent hover:text-accent-foreground"
                   aria-label="social"
                 >
                   <Icon className="h-4 w-4" />
                 </a>
               ))}
             </div>
-            <p className="mt-6 text-xs leading-relaxed text-white/60">
+            <p className="mt-6 text-xs leading-relaxed text-white/50">
               Subscribe to our newsletter for AMR updates, guidelines and
               upcoming CME announcements.
             </p>
@@ -87,7 +87,7 @@ export function Footer() {
       </div>
 
       <div className="border-t border-white/10">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-5 text-xs text-white/60 sm:flex-row lg:px-8">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-5 text-xs text-white/50 sm:flex-row lg:px-8">
           <p className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-center sm:justify-start sm:text-left">
             <span>© 2026 Hospital Infection Society – India. All Rights Reserved.</span>
             <span aria-hidden>·</span>
