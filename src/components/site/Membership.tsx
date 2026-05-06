@@ -66,7 +66,19 @@ export function Membership() {
           </p>
         </div>
 
-        <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {benefits.map(({ icon: Icon, title, desc }) => (
+            <div key={title} className="flex flex-col gap-2">
+              <Icon size={20} style={{ color: "#2b83ff" }} />
+              <div className="text-[14px] font-semibold text-white">{title}</div>
+              <div className="text-[13px] leading-snug text-white/65">{desc}</div>
+            </div>
+          ))}
+        </div>
+
+        <div className="mt-10 h-px w-full bg-white/15" />
+
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {tiers.map((t) => (
             <div
               key={t.name}
