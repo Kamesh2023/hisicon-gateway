@@ -2,7 +2,7 @@ import { CalendarDays, FilePen, ArrowRight } from "lucide-react";
 
 export function HisiconBanner() {
   return (
-    <section className="relative overflow-hidden bg-primary-darker text-primary-foreground">
+    <section className="relative overflow-hidden bg-primary-dark text-primary-foreground">
       <div
         aria-hidden
         className="absolute inset-0 opacity-[0.06]"
