@@ -1,4 +1,27 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, BookOpen, GraduationCap, Calendar, Users } from "lucide-react";
+
+const benefits = [
+  {
+    icon: BookOpen,
+    title: "Free JPSIC access",
+    desc: "Full digital access to all journal issues",
+  },
+  {
+    icon: GraduationCap,
+    title: "CPD & CME credits",
+    desc: "Accredited learning modules and certificates",
+  },
+  {
+    icon: Calendar,
+    title: "HISICON discounts",
+    desc: "Reduced registration rates for annual conference",
+  },
+  {
+    icon: Users,
+    title: "Professional network",
+    desc: "Connect with 1,500+ IPC professionals across India",
+  },
+];
 
 const tiers = [
   {
