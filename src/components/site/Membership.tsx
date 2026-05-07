@@ -95,7 +95,7 @@ export function Membership() {
               </p>
               <button
                 className="group mt-6 inline-flex w-fit items-center gap-2 rounded-md px-5 py-2.5 text-sm font-semibold text-white transition-opacity hover:opacity-90"
-                style={{ backgroundColor: "#003087" }}
+                style={{ backgroundColor: "#2b83ff" }}
               >
                 Join Now
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
