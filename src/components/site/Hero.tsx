@@ -28,8 +28,12 @@ export function Hero() {
         <div className="relative mx-auto max-w-7xl px-4 py-20 lg:px-8 lg:py-28">
           <div className="max-w-3xl">
             <span
-              className="font-semibold uppercase tracking-wider"
-              style={{ fontSize: "12px", color: "#003087" }}
+              className="font-semibold uppercase"
+              style={{
+                fontSize: "12px",
+                letterSpacing: "0.06em",
+                color: "rgba(0,48,135,0.7)",
+              }}
             >
               WHO Recognised · Est. 1991
             </span>
@@ -37,14 +41,16 @@ export function Hero() {
               className="mt-5 text-4xl font-bold leading-[1.1] tracking-tight sm:text-5xl lg:text-6xl"
               style={{ color: "#003087" }}
             >
-              Protecting patients.
-              <br />
-              Advancing{" "}
+              Protecting patients. Advancing{" "}
               <span style={{ color: "#2b83ff" }}>infection control.</span>
             </h1>
             <p
-              className="mt-6 max-w-xl"
-              style={{ fontSize: "18px", lineHeight: 1.6, color: "#003087", opacity: 0.85 }}
+              className="mt-6 max-w-2xl"
+              style={{
+                fontSize: "18px",
+                lineHeight: 1.6,
+                color: "rgba(26,43,74,0.75)",
+              }}
             >
               India's national society for infection prevention — advancing
               science, policy and practice since 1991. WHO recognised · 1,500+
@@ -54,14 +60,18 @@ export function Hero() {
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <button
                 className="group inline-flex items-center gap-2 rounded-md px-6 py-3 text-sm font-semibold text-white shadow-lg transition-opacity hover:opacity-90"
-                style={{ backgroundColor: "#003087" }}
+                style={{ backgroundColor: "#2b83ff" }}
               >
                 Become a Member
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
               </button>
               <button
                 className="inline-flex items-center gap-2 rounded-md border px-6 py-3 text-sm font-semibold transition-colors hover:bg-[#003087]/5"
-                style={{ borderColor: "#003087", color: "#003087", backgroundColor: "transparent" }}
+                style={{
+                  borderColor: "#003087",
+                  color: "#003087",
+                  backgroundColor: "transparent",
+                }}
               >
                 HISICON 2026
               </button>
@@ -70,31 +80,24 @@ export function Hero() {
         </div>
       </div>
 
-      {/* Stats strip */}
-      <div style={{ backgroundColor: "#002070" }}>
+      {/* Stats strip — light */}
+      <div style={{ backgroundColor: "#f5f7fa" }}>
         <div className="mx-auto max-w-7xl px-4 py-10 lg:px-8">
-          <div className="grid grid-cols-2 gap-4 lg:grid-cols-4">
+          <div className="grid grid-cols-2 gap-6 lg:grid-cols-4">
             {stats.map((s) => (
-              <div
-                key={s.label}
-                className="rounded-lg"
-                style={{
-                  backgroundColor: "rgba(255,255,255,0.06)",
-                  padding: "16px",
-                }}
-              >
+              <div key={s.label}>
                 <div
                   className="font-bold leading-none"
                   style={{
-                    fontSize: "48px",
-                    color: s.accent ? "#2b83ff" : "#ffffff",
+                    fontSize: "36px",
+                    color: s.accent ? "#2b83ff" : "#003087",
                   }}
                 >
                   {s.value}
                 </div>
                 <div
-                  className="mt-2 text-white/60"
-                  style={{ fontSize: "13px" }}
+                  className="mt-2"
+                  style={{ fontSize: "13px", color: "#6B7A99" }}
                 >
                   {s.label}
                 </div>
