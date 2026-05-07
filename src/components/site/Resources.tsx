@@ -67,7 +67,8 @@ export function Resources() {
               </p>
               <a
                 href="#"
-                className="mt-5 inline-flex items-center gap-1.5 text-sm font-semibold text-accent"
+                className="group/cta mt-5 inline-flex items-center justify-center gap-1.5 rounded-md px-4 py-2 text-sm font-semibold text-white transition-opacity hover:opacity-90"
+                style={{ backgroundColor: "#2b83ff" }}
               >
                 {cta}
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />

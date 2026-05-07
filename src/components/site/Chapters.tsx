@@ -40,7 +40,7 @@ export function Chapters() {
                 key={city}
                 className="group rounded-lg border border-border bg-card p-4 transition-all hover:border-accent/40 hover:shadow-[var(--shadow-card)]"
               >
-                <MapPin className="h-4 w-4 text-accent" />
+                <MapPin className="h-4 w-4" style={{ color: "#2b83ff" }} />
                 <div className="mt-3 text-sm font-semibold text-foreground">
                   {city}
                 </div>
