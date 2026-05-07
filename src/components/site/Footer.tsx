@@ -1,10 +1,10 @@
-import { ShieldPlus, Mail, Phone, MapPin, Linkedin, Twitter, Facebook, Youtube } from "lucide-react";
+import { ShieldPlus, Mail, Phone, MapPin, Linkedin, Twitter, Facebook, Youtube, Instagram, MessageCircle } from "lucide-react";
 
 const quickLinks = ["About Us", "Membership", "Education", "Events", "Journal", "Chapters", "Contact Us"];
 
 export function Footer() {
   return (
-    <footer className="bg-primary-darker text-primary-foreground">
+    <footer className="text-primary-foreground" style={{ backgroundColor: "#001a5c" }}>
       <div className="mx-auto max-w-7xl px-4 py-16 lg:px-8">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div>
@@ -20,7 +20,7 @@ export function Footer() {
               antimicrobial stewardship since 1991.
             </p>
             <p className="mt-3 text-xs leading-relaxed text-white/50">
-              Registered Society · Established 1991 · CIN: Pending verification
+              Registered Society · Established 1991 · New Delhi, India
             </p>
           </div>
 
@@ -67,7 +67,7 @@ export function Footer() {
               Follow Us
             </h4>
             <div className="mt-5 flex gap-2">
-              {[Linkedin, Twitter, Facebook, Youtube].map((Icon, i) => (
+              {[Linkedin, Twitter, Facebook, Instagram, Youtube, MessageCircle].map((Icon, i) => (
                 <a
                   key={i}
                   href="#"
