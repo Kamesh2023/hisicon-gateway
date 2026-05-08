@@ -59,23 +59,23 @@ export function Navbar() {
   const headerStyle = scrolled
     ? { backgroundColor: "#ffffff", borderBottom: "1px solid #dde3ee" }
     : {
-        backgroundColor: "rgba(255,255,255,0.95)",
+        backgroundColor: "#ffffff",
         borderBottom: "1px solid transparent",
       };
 
   return (
     <header
-      className="fixed top-0 left-0 right-0 z-50 w-full backdrop-blur transition-shadow"
+      className="fixed top-0 left-0 right-0 z-50 w-full transition-shadow"
       style={headerStyle}
     >
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 lg:px-8">
-        <Link to="/" className="flex items-center gap-2.5">
+      <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 lg:px-8" style={{ minHeight: "68px" }}>
+        <Link to="/" className="flex flex-col items-start gap-1">
           <span
             className="font-bold uppercase text-white"
             style={{
               backgroundColor: "#003087",
-              fontSize: "16px",
-              padding: "6px 8px",
+              fontSize: "20px",
+              padding: "8px 10px",
               borderRadius: "4px",
               lineHeight: 1,
               fontFamily: "Inter, sans-serif",
@@ -83,13 +83,11 @@ export function Navbar() {
           >
             HISI
           </span>
-          <span className="hidden flex-col leading-tight sm:flex">
-            <span style={{ color: "#003087", fontSize: "13px", fontWeight: 700 }}>
-              Hospital Infection Society
-            </span>
-            <span style={{ color: "#003087", fontSize: "12px", fontWeight: 400 }}>
-              of India
-            </span>
+          <span
+            className="hidden sm:inline"
+            style={{ color: "#003087", fontSize: "11px", fontFamily: "Inter, sans-serif" }}
+          >
+            Hospital Infection Society of India
           </span>
         </Link>
 
