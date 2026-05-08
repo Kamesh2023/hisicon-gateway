@@ -1,6 +1,6 @@
 import { ShieldPlus, Mail, Phone, MapPin, Linkedin, Twitter, Facebook, Youtube, Instagram, MessageCircle } from "lucide-react";
 
-const quickLinks = ["About Us", "Membership", "Education", "Events", "Journal", "Chapters", "Contact Us"];
+const quickLinks = ["About", "Membership", "Knowledge", "Events", "Journal", "Chapters", "Contact Us"];
 
 export function Footer() {
   return (

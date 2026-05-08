@@ -78,7 +78,7 @@ export function JournalSpotlight() {
                 Visit Journal
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-0.5" />
               </button>
-              <button className="inline-flex items-center gap-2 rounded-md border border-border px-6 py-3 text-sm font-semibold text-foreground transition-colors hover:bg-secondary">
+              <button className="inline-flex items-center gap-2 rounded-md border px-6 py-3 text-sm font-semibold transition-colors hover:bg-[#003087]/5" style={{ borderColor: "#003087", color: "#003087", backgroundColor: "transparent" }}>
                 Submit a manuscript
               </button>
             </div>
