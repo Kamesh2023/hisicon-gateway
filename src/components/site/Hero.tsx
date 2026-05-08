@@ -21,7 +21,7 @@ export function Hero() {
         {/* White overlay 70% */}
         <div
           className="absolute inset-0"
-          style={{ backgroundColor: "rgba(255,255,255,0.7)" }}
+          style={{ backgroundColor: "rgba(255,255,255,0.45)" }}
           aria-hidden
         />
 
