@@ -69,18 +69,27 @@ export function Navbar() {
       style={headerStyle}
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 lg:px-8">
-        <Link to="/" className="flex items-baseline gap-1.5">
+        <Link to="/" className="flex items-center gap-2.5">
           <span
-            className="text-base font-bold tracking-tight"
-            style={{ color: "#003087" }}
+            className="font-bold uppercase text-white"
+            style={{
+              backgroundColor: "#003087",
+              fontSize: "16px",
+              padding: "6px 8px",
+              borderRadius: "4px",
+              lineHeight: 1,
+              fontFamily: "Inter, sans-serif",
+            }}
           >
             HISI
           </span>
-          <span
-            className="hidden text-xs font-normal sm:inline"
-            style={{ color: "#003087" }}
-          >
-            Hospital Infection Society – India
+          <span className="hidden flex-col leading-tight sm:flex">
+            <span style={{ color: "#003087", fontSize: "13px", fontWeight: 700 }}>
+              Hospital Infection Society
+            </span>
+            <span style={{ color: "#003087", fontSize: "12px", fontWeight: 400 }}>
+              of India
+            </span>
           </span>
         </Link>
 
